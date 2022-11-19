@@ -1,0 +1,3 @@
+# PatikaJavaProjeler
+
+www.patika.dev
