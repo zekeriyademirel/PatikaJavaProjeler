@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BasamakSayilarininToplami {
     public static void main(String[] args) {
 
-        int number, basValue, toplam = 0;
+        int number, basValue, total = 0;
 
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı giriniz= ");
@@ -11,10 +11,10 @@ public class BasamakSayilarininToplami {
 
         while (number != 0) {
             basValue = number % 10;
-            toplam += basValue;
+            total += basValue;
             number /= 10;
         }
-        System.out.println("Basamak Sayılarının Toplamı = " + toplam);
+        System.out.println("Basamak Sayılarının Toplamı = " + total);
 
     }
 }
