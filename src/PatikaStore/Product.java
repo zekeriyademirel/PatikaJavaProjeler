@@ -6,11 +6,11 @@ public class Product implements Comparable<Product> {
 
     private int id;
     private String name;
-    private double price; // fiyat
-    private double discountRate; // indirim oranı
-    private int amountStock; // miktar stok
+    private double price;
+    private double discountRate;
+    private int amountStock;
     Brand brandInfo;
-    private double screenSize; // ekran boyutu
+    private double screenSize;
     private int ram;
     int sayac = 0;
 
