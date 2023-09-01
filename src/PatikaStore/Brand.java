@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Brand implements Comparable<Brand> {
     private static int id;
     private String name;
-    int sayac = 0;
+   static int sayac = 0;
 
    public static ArrayList<Brand> brands = new ArrayList<>();
 

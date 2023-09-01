@@ -6,7 +6,7 @@ public class Notebook extends Product{
     private int id;
     private int storage;
     private String productType;
-    int sayac=0;
+   static int sayac=0;
 
    public static ArrayList<Notebook> notebooks=new ArrayList<>();
     public Notebook(String name, double price, Brand brandInfo, double screenSize, int ram,int storage) {

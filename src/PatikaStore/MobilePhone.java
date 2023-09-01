@@ -8,7 +8,7 @@ public class MobilePhone extends Product {
     private double batteryPower;
     private String color;
     private String productType;
-    int sayac = 0;
+   static int sayac = 0;
 
     public static ArrayList<MobilePhone> mobilePhones = new ArrayList();
 

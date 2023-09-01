@@ -12,7 +12,7 @@ public class Product implements Comparable<Product> {
     Brand brandInfo;
     private double screenSize;
     private int ram;
-    int sayac = 0;
+   static int sayac = 0;
 
    public static ArrayList<Product> products = new ArrayList<>();
 
